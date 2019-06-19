@@ -90,8 +90,8 @@ import UIKit
 
 
 struct Stroke {
-    let startPoint: CGPoint
-    let endPoint: CGPoint
+    var start: CGPoint
+    var end: CGPoint
     let color: CGColor
 }
 
