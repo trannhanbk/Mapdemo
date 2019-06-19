@@ -70,27 +70,24 @@ class MoveViewController: UIViewController {
             let stock = Stroke(start: pointLast, end: locationView.center, color: strokeColor)
             strokes.append(stock)
             lastPoint = locationView.center
-            isRemoveLine = true
             addLine()
+            strokes.remove(at: strokes.count - 1)
         }
     }
 
     func addLine() {
-        for stock in strokes {
+        strokes.forEach { (stroke) in
             //design the path
             let path = UIBezierPath()
-            path.move(to: stock.start)
-            path.addLine(to: stock.end)
+            path.move(to: stroke.start)
+            path.addLine(to: stroke.end)
 
             //design path in layer
             let shapeLayer = CAShapeLayer()
             shapeLayer.path = path.cgPath
             shapeLayer.strokeColor = UIColor.red.cgColor
             shapeLayer.lineWidth = 1.0
-            if isRemoveLine {
-                shapeLayer.removeAllAnimations()
-                isRemoveLine = false
-            }
+
             view.layer.addSublayer(shapeLayer)
         }
     }
