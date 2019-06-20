@@ -70,7 +70,7 @@ import UIKit
 //            context?.strokePath()
 //        }
 //    }
-//
+
 //    func configButtonInLocationPoint(_ point: CGPoint) {
 //        let x = point.x - 10
 //        let y = point.y - 20
