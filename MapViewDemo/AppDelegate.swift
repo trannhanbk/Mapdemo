@@ -35,7 +35,7 @@ extension AppDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .white
-        let homvc = ImageViewController()
+        let homvc = DrawViewController()
         window?.rootViewController = homvc
     }
 }

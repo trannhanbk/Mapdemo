@@ -70,7 +70,7 @@ import UIKit
 //            context?.strokePath()
 //        }
 //    }
-//
+
 //    func configButtonInLocationPoint(_ point: CGPoint) {
 //        let x = point.x - 10
 //        let y = point.y - 20
@@ -90,8 +90,8 @@ import UIKit
 
 
 struct Stroke {
-    let startPoint: CGPoint
-    let endPoint: CGPoint
+    var start: CGPoint
+    var end: CGPoint
     let color: CGColor
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0A837722B9E9BA00E97FCC /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A837522B9E9BA00E97FCC /* DrawViewController.swift */; };
+		2A0A837822B9E9BA00E97FCC /* DrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A837622B9E9BA00E97FCC /* DrawViewController.xib */; };
+		2A0A837C22BA29C800E97FCC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A837A22BA29C800E97FCC /* PageViewController.swift */; };
+		2A0A837D22BA29C800E97FCC /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A837B22BA29C800E97FCC /* PageViewController.xib */; };
 		2A524F7722B73AC50064C684 /* PoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F7622B73AC50064C684 /* PoinView.swift */; };
 		2A524F7B22B7406F0064C684 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F7922B7406F0064C684 /* ImageViewController.swift */; };
 		2A524F7C22B7406F0064C684 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A524F7A22B7406F0064C684 /* ImageViewController.xib */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0A837522B9E9BA00E97FCC /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		2A0A837622B9E9BA00E97FCC /* DrawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawViewController.xib; sourceTree = "<group>"; };
+		2A0A837A22BA29C800E97FCC /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2A0A837B22BA29C800E97FCC /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
 		2A524F7622B73AC50064C684 /* PoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoinView.swift; sourceTree = "<group>"; };
 		2A524F7922B7406F0064C684 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		2A524F7A22B7406F0064C684 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
@@ -98,6 +106,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A0A837422B9E99900E97FCC /* Add 3 point */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A837522B9E9BA00E97FCC /* DrawViewController.swift */,
+				2A0A837622B9E9BA00E97FCC /* DrawViewController.xib */,
+			);
+			path = "Add 3 point";
+			sourceTree = "<group>";
+		};
+		2A0A837922BA299700E97FCC /* Page view */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A837A22BA29C800E97FCC /* PageViewController.swift */,
+				2A0A837B22BA29C800E97FCC /* PageViewController.xib */,
+			);
+			path = "Page view";
+			sourceTree = "<group>";
+		};
 		2A524F7822B7405B0064C684 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +173,8 @@
 		2ACFD38922B1FA36005AA9EE /* MapViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2A0A837922BA299700E97FCC /* Page view */,
+				2A0A837422B9E99900E97FCC /* Add 3 point */,
 				2A524F8222B89E0E0064C684 /* MoveView */,
 				2A524F7D22B76F8B0064C684 /* Models */,
 				2A524F7822B7405B0064C684 /* ImageView */,
@@ -321,10 +349,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0A837D22BA29C800E97FCC /* PageViewController.xib in Resources */,
 				2ACFD39522B1FA3B005AA9EE /* LaunchScreen.storyboard in Resources */,
 				2ACFD39222B1FA3B005AA9EE /* Assets.xcassets in Resources */,
 				2A524F8622B89E4A0064C684 /* MoveViewController.xib in Resources */,
 				2ACFD39022B1FA36005AA9EE /* Main.storyboard in Resources */,
+				2A0A837822B9E9BA00E97FCC /* DrawViewController.xib in Resources */,
 				2ACFD3C122B1FB44005AA9EE /* MapViewController.xib in Resources */,
 				2A524F7C22B7406F0064C684 /* ImageViewController.xib in Resources */,
 				2ACFD3BC22B1FA5A005AA9EE /* HomeViewController.xib in Resources */,
@@ -352,8 +382,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0A837722B9E9BA00E97FCC /* DrawViewController.swift in Sources */,
 				2ACFD3C622B1FE39005AA9EE /* LocationStorage.swift in Sources */,
 				2A524F7722B73AC50064C684 /* PoinView.swift in Sources */,
+				2A0A837C22BA29C800E97FCC /* PageViewController.swift in Sources */,
 				2ACFD38B22B1FA36005AA9EE /* AppDelegate.swift in Sources */,
 				2A524F8522B89E4A0064C684 /* MoveViewController.swift in Sources */,
 				2ACFD3C022B1FB44005AA9EE /* MapViewController.swift in Sources */,
