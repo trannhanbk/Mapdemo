@@ -108,6 +108,7 @@ extension DrawViewController {
         panGesture = UIPanGestureRecognizer(target: self, action: #selector(self.draggedThirdView(_:)))
         drawView.isUserInteractionEnabled = true
         drawView.addGestureRecognizer(panGesture)
+        drawView.viewWithTag(1)
         self.view.addSubview(drawView)
     }
 
@@ -137,7 +138,7 @@ extension DrawViewController {
 extension DrawViewController {
     struct Dummy {
         static let pointFirstView: CGPoint = {
-            return CGPoint(x: UIScreen.main.bounds.width / 2, y: 200)
+            return CGPoint(x: UIScreen.main.bounds.width / 2, y: 100)
         }()
 
         static let pointSeconView: CGPoint = {

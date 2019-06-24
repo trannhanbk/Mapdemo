@@ -87,7 +87,6 @@ class MoveViewController: UIViewController {
             shapeLayer.path = path.cgPath
             shapeLayer.strokeColor = UIColor.red.cgColor
             shapeLayer.lineWidth = 1.0
-
             view.layer.addSublayer(shapeLayer)
         }
     }
