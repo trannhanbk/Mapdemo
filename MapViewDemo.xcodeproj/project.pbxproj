@@ -14,11 +14,11 @@
 		2A0A838522BB3A1F00E97FCC /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A838422BB3A1F00E97FCC /* TapView.swift */; };
 		2A0A838722BB3A2B00E97FCC /* TapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A838622BB3A2B00E97FCC /* TapView.xib */; };
 		2A524F7722B73AC50064C684 /* PoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F7622B73AC50064C684 /* PoinView.swift */; };
-		2A524F7B22B7406F0064C684 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F7922B7406F0064C684 /* ImageViewController.swift */; };
-		2A524F7C22B7406F0064C684 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A524F7A22B7406F0064C684 /* ImageViewController.xib */; };
 		2A524F7F22B76FA80064C684 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F7E22B76FA80064C684 /* DrawView.swift */; };
 		2A524F8522B89E4A0064C684 /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A524F8322B89E4A0064C684 /* MoveViewController.swift */; };
 		2A524F8622B89E4A0064C684 /* MoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A524F8422B89E4A0064C684 /* MoveViewController.xib */; };
+		2A95115422C06D4600BFF896 /* NewDrawLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A95115222C06D4600BFF896 /* NewDrawLineViewController.swift */; };
+		2A95115522C06D4600BFF896 /* NewDrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A95115322C06D4600BFF896 /* NewDrawLineViewController.xib */; };
 		2ACFD38B22B1FA36005AA9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFD38A22B1FA36005AA9EE /* AppDelegate.swift */; };
 		2ACFD39022B1FA36005AA9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACFD38E22B1FA36005AA9EE /* Main.storyboard */; };
 		2ACFD39222B1FA3B005AA9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACFD39122B1FA3B005AA9EE /* Assets.xcassets */; };
@@ -59,11 +59,11 @@
 		2A0A838422BB3A1F00E97FCC /* TapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
 		2A0A838622BB3A2B00E97FCC /* TapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapView.xib; sourceTree = "<group>"; };
 		2A524F7622B73AC50064C684 /* PoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoinView.swift; sourceTree = "<group>"; };
-		2A524F7922B7406F0064C684 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		2A524F7A22B7406F0064C684 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		2A524F7E22B76FA80064C684 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		2A524F8322B89E4A0064C684 /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
 		2A524F8422B89E4A0064C684 /* MoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoveViewController.xib; sourceTree = "<group>"; };
+		2A95115222C06D4600BFF896 /* NewDrawLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDrawLineViewController.swift; sourceTree = "<group>"; };
+		2A95115322C06D4600BFF896 /* NewDrawLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewDrawLineViewController.xib; sourceTree = "<group>"; };
 		2ACFD38722B1FA36005AA9EE /* MapViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACFD38A22B1FA36005AA9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACFD38F22B1FA36005AA9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,15 +138,6 @@
 			path = TapView;
 			sourceTree = "<group>";
 		};
-		2A524F7822B7405B0064C684 /* ImageView */ = {
-			isa = PBXGroup;
-			children = (
-				2A524F7922B7406F0064C684 /* ImageViewController.swift */,
-				2A524F7A22B7406F0064C684 /* ImageViewController.xib */,
-			);
-			path = ImageView;
-			sourceTree = "<group>";
-		};
 		2A524F7D22B76F8B0064C684 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +153,15 @@
 				2A524F8422B89E4A0064C684 /* MoveViewController.xib */,
 			);
 			path = MoveView;
+			sourceTree = "<group>";
+		};
+		2A95115122C06D2500BFF896 /* New Draw */ = {
+			isa = PBXGroup;
+			children = (
+				2A95115222C06D4600BFF896 /* NewDrawLineViewController.swift */,
+				2A95115322C06D4600BFF896 /* NewDrawLineViewController.xib */,
+			);
+			path = "New Draw";
 			sourceTree = "<group>";
 		};
 		2ACFD37E22B1FA36005AA9EE = {
@@ -187,11 +187,11 @@
 		2ACFD38922B1FA36005AA9EE /* MapViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2A95115122C06D2500BFF896 /* New Draw */,
 				2A0A837E22BB1CE300E97FCC /* DrawMorePoint */,
 				2A0A837422B9E99900E97FCC /* Add 3 point */,
 				2A524F8222B89E0E0064C684 /* MoveView */,
 				2A524F7D22B76F8B0064C684 /* Models */,
-				2A524F7822B7405B0064C684 /* ImageView */,
 				2ACFD3C722B349C8005AA9EE /* Canvas */,
 				2ACFD3C222B1FC99005AA9EE /* Location */,
 				2ACFD3BD22B1FB35005AA9EE /* MapView */,
@@ -370,8 +370,8 @@
 				2A0A838222BB1D0E00E97FCC /* DrawLineViewController.xib in Resources */,
 				2A0A837822B9E9BA00E97FCC /* DrawViewController.xib in Resources */,
 				2A0A838722BB3A2B00E97FCC /* TapView.xib in Resources */,
+				2A95115522C06D4600BFF896 /* NewDrawLineViewController.xib in Resources */,
 				2ACFD3C122B1FB44005AA9EE /* MapViewController.xib in Resources */,
-				2A524F7C22B7406F0064C684 /* ImageViewController.xib in Resources */,
 				2ACFD3BC22B1FA5A005AA9EE /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,8 +408,8 @@
 				2ACFD3C422B1FCB8005AA9EE /* Location.swift in Sources */,
 				2A524F7F22B76FA80064C684 /* DrawView.swift in Sources */,
 				2ACFD3BB22B1FA5A005AA9EE /* HomeViewController.swift in Sources */,
-				2A524F7B22B7406F0064C684 /* ImageViewController.swift in Sources */,
 				2ACFD3C922B349DD005AA9EE /* Canvas.swift in Sources */,
+				2A95115422C06D4600BFF896 /* NewDrawLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
