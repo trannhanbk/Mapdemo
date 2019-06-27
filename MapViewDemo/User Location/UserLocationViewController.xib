@@ -10,8 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoveViewController" customModule="MapViewDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserLocationViewController" customModule="MapViewDemo" customModuleProvider="target">
             <connections>
+                <outlet property="mapView" destination="aRm-QF-Zf8" id="45v-mK-2wB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,9 +20,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aRm-QF-Zf8">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </mapView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aRm-QF-Zf8" secondAttribute="trailing" id="50o-5e-x4Q"/>
+                <constraint firstItem="aRm-QF-Zf8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="JeT-io-cm5"/>
+                <constraint firstItem="aRm-QF-Zf8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="NaO-6k-2AU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aRm-QF-Zf8" secondAttribute="bottom" id="sOR-RO-YG2"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
         </view>
     </objects>
 </document>
