@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="MapViewDemo" customModuleProvider="target">
             <connections>
-                <outlet property="mapView" destination="2Ka-nH-Oon" id="gUC-Wf-Oos"/>
+                <outlet property="mapView" destination="2Ka-nH-Oon" id="TB3-cH-RZF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -31,9 +31,6 @@
                         <constraint firstAttribute="height" constant="40" id="Vc8-3r-9kr"/>
                     </constraints>
                     <state key="normal" title="ADD"/>
-                    <connections>
-                        <action selector="addButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="he5-Wb-WBC"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
